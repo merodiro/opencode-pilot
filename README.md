@@ -6,7 +6,7 @@ Version 0.1.0 — testing release. Routes each turn to a model by difficulty, th
 
 ```jsonc
 {
-  "plugins": ["opencode-auto-router@latest"]
+  "plugins": ["@merodiro/opencode-pilot@latest"]
 }
 ```
 

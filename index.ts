@@ -1029,7 +1029,7 @@ const VIRTUAL_MODELS = [
 ] as const;
 
 export default Plugin.define({
-  id: "opencode-auto-router",
+  id: "opencode-pilot",
   async setup(ctx) {
     const latest = new Map<string, JevRoute>();
 

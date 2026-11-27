@@ -1,6 +1,16 @@
 {
-  "name": "opencode-auto-router",
+  "name": "@merodiro/opencode-pilot",
   "version": "0.1.0",
+  "description": "Auto-route OpenCode turns by difficulty across Go, free, and Claude Pro profiles",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merodiro/opencode-auto-router.git"
+  },
   "type": "module",
   "exports": {
     ".": "./index.ts",
