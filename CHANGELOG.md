@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/merodiro/opencode-pilot/compare/opencode-pilot-v0.1.1...opencode-pilot-v0.1.2) (2026-11-27)
+
+
+### Bug Fixes
+
+* declare UI type dependencies for clean-room typecheck ([e8cb828](https://github.com/merodiro/opencode-pilot/commit/e8cb828e02c6918cab2425654a37bceb828d1acc))
+* run vp pack in publish job and gate every push on typecheck plus build ([2d0615d](https://github.com/merodiro/opencode-pilot/commit/2d0615d821a1c586fe17f01e008633e31bc4545a))
+
 ## [0.1.1](https://github.com/merodiro/opencode-pilot/compare/opencode-pilot-v0.1.0...opencode-pilot-v0.1.1) (2026-11-27)
 
 
