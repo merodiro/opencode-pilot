@@ -126,7 +126,7 @@ Each record holds `ts`, `userMessageID`, `routerVersion`, `agent`, `kind` (`prim
 
 `routerVersion` is a fingerprint of the thresholds, failure limits, and log policy version that produced the decision. Group by it before drawing conclusions: records from different versions are not comparable, and route-table changes show up in `resolvedModel` instead. The log is analysis-only; if storage rejects a write, routing is unaffected.
 
-The UI parts read the same server-side state; they load from `tui.tsx` and the prebuilt `dist/gui-experimental.cjs` (rebuild with `npx vite build --config vite.config.mts` from this directory after GUI edits).
+The UI parts read the same server-side state; they load from `tui.tsx` and the prebuilt `dist/gui-experimental.cjs` (rebuild with `mise run build` — or `vpr build` — from this directory after GUI edits; toolchain comes from `mise.toml`).
 
 ## Data sources
 

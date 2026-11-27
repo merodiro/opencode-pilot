@@ -11,6 +11,9 @@
     "url": "git+https://github.com/merodiro/opencode-pilot.git"
   },
   "type": "module",
+  "scripts": {
+    "build": "vp pack"
+  },
   "exports": {
     ".": "./index.ts",
     "./tui": "./tui.tsx",

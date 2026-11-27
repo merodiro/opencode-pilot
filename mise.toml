@@ -1,0 +1,11 @@
+[settings.node]
+corepack = true
+npm_shim = false
+
+[tools]
+node = "lts"
+"npm:vite-plus" = "latest"
+
+[tasks.build]
+description = "Build the desktop GUI bundle"
+run = "vp pack"
