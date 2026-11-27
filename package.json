@@ -4,8 +4,7 @@
   "description": "Auto-route OpenCode turns by difficulty across Go, free, and Claude Pro profiles",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "repository": {
     "type": "git",
