@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/merodiro/opencode-pilot/compare/opencode-pilot-v0.2.0...opencode-pilot-v0.2.1) (2026-11-27)
+
+
+### Bug Fixes
+
+* build GUI bundle with vp pack via mise ([acf7ec9](https://github.com/merodiro/opencode-pilot/commit/acf7ec9be5872f0e85d5632b0c8df8d3d5fb00f4))
+
 ## [0.2.0](https://github.com/merodiro/opencode-pilot/compare/opencode-pilot-v0.1.0...opencode-pilot-v0.2.0) (2026-11-27)
 
 
