@@ -1,6 +1,6 @@
 {
   "name": "@merodiro/opencode-pilot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Auto-route OpenCode turns by difficulty across Go, free, and Claude Pro profiles",
   "license": "MIT",
   "publishConfig": {
@@ -17,7 +17,12 @@
     "./gui-experimental": "./dist/gui-experimental.cjs",
     "./rpc": "./rpc.ts"
   },
-  "files": ["index.ts", "rpc.ts", "tui.tsx", "dist"],
+  "files": [
+    "index.ts",
+    "rpc.ts",
+    "tui.tsx",
+    "dist"
+  ],
   "dependencies": {
     "@opencode/plugin": "latest"
   }
