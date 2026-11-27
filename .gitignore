@@ -1,0 +1,5 @@
+node_modules/
+*.log
+.DS_Store
+# Stale build kept on disk for local testing; package exports point at dist/.
+/gui-experimental.cjs

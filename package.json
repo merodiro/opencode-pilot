@@ -1,0 +1,15 @@
+{
+  "name": "opencode-auto-router",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.tsx",
+    "./gui-experimental": "./dist/gui-experimental.cjs",
+    "./rpc": "./rpc.ts"
+  },
+  "files": ["index.ts", "rpc.ts", "tui.tsx", "dist"],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
